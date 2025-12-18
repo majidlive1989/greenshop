@@ -3,6 +3,7 @@ import Image from "next/image";
 import cartimg from "../assets/img/cart.svg";
 import logoimg from "../assets/img/logo-CMLzTNjw.svg";
 import searchimg from "../assets/img/search.svg";
+import Link from "next/link";
 const Header = () => {
   return (
     <div className="w-full ">
@@ -23,7 +24,9 @@ const Header = () => {
           <div className="flex flex-row gap-4">
             <ul className="flex flex-row gap-4 px-4 text-gray-600">
               <li>Home</li>
-              <li>َAll Products</li>
+              <li>
+                <Link href="َshop">َAll Products</Link>
+              </li>
             </ul>
           </div>
           <div className="relative ">
